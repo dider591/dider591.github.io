@@ -54,6 +54,7 @@ html {
 
   body{
     background-color: rgb(238, 236, 234);
+    font-family:'Courier New', Courier, monospace
   }
 
   .container{
@@ -68,7 +69,7 @@ html {
   }
 
   .title{
-    font-weight: 400;
+    font-weight: bold;
     font-size: 50px;
     line-height: 52px;
     margin-bottom: 20px;
@@ -102,6 +103,12 @@ html {
   line-height: 20px;
   padding: 0 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 40px;
+  }
+
+  .about__stack{
+display: flex;
+justify-content: space-around;
   }
 
   .details{
